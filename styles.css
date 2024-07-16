@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+input, button{
+    margin: 5px;
+    padding: 8px;
+    width: calc(100% - 22px);
+
+}
+
+button {
+    cursor: pointer;
+}
+
+#catalogo{
+    margin-bottom: 20px;
+
+}
+
+.book{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+#addbook-form, #search-form{
+    margin-bottom: 10px;
+}
